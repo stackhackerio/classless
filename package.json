@@ -1,6 +1,6 @@
 {
   "name": "@stackhackerio/classless",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Out of the box CSS styling for HTML elements. No class names, no framework to learn.",
   "main": "index.js",
   "scripts": {
