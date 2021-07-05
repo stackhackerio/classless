@@ -22,19 +22,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stackhackerio/tailwindcss-classless.git"
+    "url": "git+https://github.com/stackhackerio/classless.git"
   },
   "bugs": {
-    "url": "https://github.com/stackhackerio/tailwindcss-classless/issues"
+    "url": "https://github.com/stackhackerio/classless/issues"
   },
-  "homepage": "https://github.com/stackhackerio/tailwindcss-classless#readme",
+  "homepage": "https://github.com/stackhackerio/classless#readme",
   "keywords": [
     "create-tailwind-plugin",
     "tailwind-css-plugin",
     "tailwindcss",
     "plugin"
   ],
-  "author": "Hirotaka Mizutani",
+  "author": "stackhacker",
   "license": "MIT",
   "prettier": {
     "printWidth": 100,

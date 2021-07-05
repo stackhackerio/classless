@@ -1,4 +1,4 @@
-# tailwindcss-classless
+# @stackhackerio/classless
 
 > Your Tailwind CSS Plugin Description
 

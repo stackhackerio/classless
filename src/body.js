@@ -20,7 +20,7 @@ module.exports = () => ({
     '@apply bg-yellow-200 text-yellow-800 highlight': {},
   },
   'main a': {
-    '@apply no-underline text-indigo-500 font-semibold': {},
+    '@apply no-underline text-gray-500 font-semibold': {},
   },
   'main code': {
     '@apply text-pink-600 bg-gray-200 highlight': {},

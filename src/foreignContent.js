@@ -28,7 +28,7 @@ module.exports = () => ({
   'figure audio': {
     '@apply px-bleed': {},
   },
-  'figure figcaption': {
+  'figure caption': {
     '@apply px-4': {},
     // TODO: fix
     // @screen sm {

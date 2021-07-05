@@ -61,7 +61,7 @@ module.exports = plugin(
     theme: {
       extend: {
         boxShadow: (theme) => ({
-          'outline-indigo': `0 0 0 3px ${theme('colors.indigo.500')}80`,
+          'outline-gray': `0 0 0 3px ${theme('colors.gray.500')}80`,
         }),
         margin: {
           '-bleed': `calc(var(--bleed) * -1)`,
