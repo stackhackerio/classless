@@ -1,11 +1,11 @@
 # @stackhackerio/classless
 
-> Your Tailwind CSS Plugin Description
+@stackhackerio/classless is a kind of so-called Classless CSS, based on Tailwindcss, using @tailswindcss/forms and @tailswindcss/typography.
 
 Install the plugin from npm:
 
 ```
-$ npm install tailwindcss-classless
+$ npm install @tailwindcss/typography @tailwindcss/forms tailwindcss-classless
 ```
 
 Then add the plugin to your `tailwind.config.js` file:
@@ -13,46 +13,33 @@ Then add the plugin to your `tailwind.config.js` file:
 ```js
 // tailwind.config.js
 module.exports = {
-  theme: {
-    // ...
-    // Optional. Your plugin might not have any options at all.
-    classless: {
-      // ...
-      YOUR_PLUGIN_CUSTOM_OPTION: true,
-      // ...
-    },
-  },
-  variants: {
-    // ...
-    // Optional. Your plugin might not have any variants at all.
-    classless: ['responsive'],
-    // ...
-  },
   plugins: [
     // ...
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
     require('tailwindcss-classless'),
     // ...
   ],
 }
 ```
 
-This plugin will generate following CSS:
+## Demo
 
-```css
-/* ... */
-.example-utility-class {
-  display: block;
-}
+https://quicko.vercel.app/
 
-.custom-utility-class {
-  background-color: red;
-}
-/* ... */
+
+## Development
+
+We use [Vite](https://vitejs.dev/) for local development.
+
+```
+npm install
+npm run dev
 ```
 
 ## License
 
-tailwindcss-classless is licensed under the MIT License.
+@stackhackerio/classless is licensed under the MIT License.
 
 ## Credits
 
